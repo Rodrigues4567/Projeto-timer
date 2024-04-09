@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'font-padrao';
+    src: url(Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'font-padrao', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2F31;
+}
+
+section {
+    height: 460px;
+    width: 360px;
+    padding: 2rem 2.5rem;
+    background-color: rgb(160, 11, 160);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(230, 230, 230);
+}
+
+.timer {
+    font-size: 5.7rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iniciar-btn,
+.pausar-btn,
+.zerar-btn {
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(230, 230, 230);;
+    cursor: pointer;
+}
+
+.iniciar-btn:hover,
+.pausar-btn:hover,
+.zerar-btn:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.363);
+    transition: 0.2s;
+}
